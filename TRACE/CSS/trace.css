@@ -1,0 +1,49 @@
+body{
+    color: #000000;
+    background-color: #ffffff;
+    font-size: 34px;
+}
+google-fomts{
+  font-family: "Noto Sans JP", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+h1{
+  font-size: 34px;
+  box-sizing: content-box;
+}
+nav{
+  font-size: 34px;
+  flex-direction: row-reverse;
+}
+h2{
+  font-size: 34px;
+  text-align: center;
+}
+h3{
+  font-size: 24px;
+  text-align: center;
+}
+p{
+  font-size: 18px;
+  text-align: center;
+}
+.photo-men{
+  border-radius: 300px;
+}
+.camera{
+  width: 100%;
+}
+.section-Work > ul{
+  list-style: none;
+  display: flex;
+}
+.section-Work > ul > li{
+  width: 33%;
+  margin: 5px;
+}
+footer{
+  font-size: 18px;
+  text-align: center;
+}
