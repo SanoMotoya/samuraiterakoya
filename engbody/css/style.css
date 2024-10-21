@@ -1,0 +1,76 @@
+/* PC・スマホ共通スタイル */
+body {
+  font-family: "Hiragino Kaku Gothic ProN", "Josefin Sans", sans-serif;
+}
+
+p {
+  font-size: 1rem;
+}
+
+h1 {
+  font-size: 6rem;
+  text-align: center;
+}
+
+h2 {
+  font-size: 2rem;
+  text-align: center;
+}
+
+h3 {
+  font-size: 5rem;
+  font-style: italic;
+}
+
+/* PC用のスタイル */
+
+body {
+  max-width: 1440px;
+}
+
+.logo {
+  margin-top: 28px;
+}
+
+.main-photo-section {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.main-photo {
+  position: relative;
+  top: -100px;
+  left: 380px;
+  width: 75%;
+  height: auto;
+}
+
+.main-point {
+  position: relative;
+  bottom: 100px;
+  left: 450px;
+}
+
+#main-point-title1 {
+  line-height: 0%;
+  background-color: white;
+  margin: 0;
+}
+
+#main-point-sentence {
+  font-size: 28px;
+  background-color: white;
+  margin: 20px;
+}
+
+.btn {
+  color: white;
+  background-color: rgb(235, 81, 194);
+  width: 370px;
+  height: 80px;
+  border-radius: 30px;
+  font-size: 20px;
+  text-align: center;
+  line-height: 80px;
+  margin: 30px;
+}
