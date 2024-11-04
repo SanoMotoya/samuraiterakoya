@@ -1,0 +1,430 @@
+body {
+  font-family: "Josefin Sans", "Hiragino Kaku Gothic ProN", sans-serif; /* sans-serif を追加 */
+}
+
+.section__inner {
+  max-width: 1440px;
+  margin: 0 auto;
+  line-height: normal;
+}
+
+.section__title {
+  font-size: 32px;
+}
+
+.make__pink {
+  color: #eb51c2;
+}
+
+/* メインビジュアル */
+
+.logo {
+  /* position: absolute;
+   */
+  max-width: 1440px;
+  /* padding-top: 28.5px;
+  padding-left: 35px; */
+}
+
+.main__point {
+  display: flex;
+  flex-direction: row-reverse;
+  position: relative;
+}
+
+.main__photo {
+  width: 75%;
+  height: auto;
+  margin-top: -27px;
+  z-index: 10;
+}
+
+.main__photo__word {
+  position: absolute;
+  left: 15%;
+  top: 15%;
+  z-index: 12;
+}
+
+.main__point__title {
+  max-width: 476px;
+  font-size: 90px;
+  font-style: italic;
+  font-weight: lighter;
+}
+
+#main__point__title1 {
+  background-color: white;
+}
+
+.main__point__sentence {
+  font-size: 28px;
+  margin-top: 20px;
+}
+
+#main__point__sentence1 {
+  background-color: white;
+}
+
+.btn {
+  font-size: 20px;
+  background-color: #eb51c2;
+  border: #eb51c2;
+  width: 370px;
+  height: 80px;
+  border-radius: 50px;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  margin-top: 30px;
+}
+
+.overview {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.overview__title {
+  position: relative;
+  font-size: 108px;
+  color: #eb51c2;
+  margin-top: -40px;
+  z-index: 11;
+}
+
+.section__title1 {
+  font-size: 32px;
+  padding-top: 10px;
+}
+
+.head__sentence {
+  white-space: pre-line;
+  line-height: normal;
+  font-size: 16px;
+  margin-top: 25px;
+}
+
+.about__training {
+  display: flex;
+  margin-top: 30px;
+}
+
+.about__photo {
+  width: 67%;
+}
+
+.about__word__content1 {
+  position: relative;
+  top: 50px;
+  padding: 60px;
+  margin-left: -50px;
+  background-color: white;
+  box-shadow: 0px 0px 20px gray;
+}
+
+.about__title__training {
+  font-size: 24px;
+  color: #eb51c2;
+}
+
+.about__overview {
+  font-size: 32px;
+  margin-top: 20px;
+  max-width: 383px;
+}
+
+.sentence {
+  font-size: 15px;
+  max-width: 435px;
+  margin-top: 15px;
+}
+
+.about__food {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-top: 90px;
+}
+
+.about__word__content2 {
+  position: relative;
+  top: 50px;
+  padding: 60px;
+  margin-right: -50px;
+  background-color: white;
+  box-shadow: 0px 0px 1px gray;
+}
+
+.about__title__food {
+  font-size: 24px;
+  color: #00b21b;
+}
+
+.btn__about {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+/* Our Trainer */
+
+.content__inner {
+  /* position: relative;
+  left: 165px; */
+  width: 100%;
+  max-width: 1110px;
+  margin: 0 auto;
+}
+
+.content__back {
+  background-image: url(/img/trainer_bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 60px;
+  height: 885px;
+}
+
+.sub__title__wh {
+  font-size: 64px;
+  padding-top: 96px;
+  color: white;
+}
+
+.title__japan__wh {
+  font-size: 20px;
+  margin-top: 10px;
+  color: white;
+}
+
+.our__trainer__tab {
+  display: flex;
+  gap: 449px;
+  margin-left: 228px;
+  font-size: 21px;
+  color: white;
+  margin-top: 30px;
+}
+
+.our__trainer__hr {
+  width: 555%;
+  margin-left: -228px;
+}
+
+.our__trainer__hr__none {
+  width: 650%;
+  margin-left: -250px;
+  display: none;
+}
+
+.list {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
+
+.list__content {
+  background-color: white;
+  /* width: 360px;
+  height: 489px; */
+  width: calc((100% - 30px) / 3);
+  margin-top: 20px;
+  text-align: center;
+}
+
+.our__trainer__photo {
+  width: 360px;
+  height: auto;
+}
+
+.sentence__our__trainer {
+  font-size: 15px;
+  background-color: white;
+  max-width: 320px;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+/* width: calc((100% - (15px * 2)) / 3);
+  height: auto */
+
+/* studio */
+
+.sub__title__br {
+  font-size: 64px;
+  margin-top: 60px;
+}
+
+.title__japan__pn {
+  font-size: 20px;
+  margin-top: 10px;
+  color: #eb51c2;
+}
+
+.studio__slide__photo {
+  width: 100%;
+  height: auto;
+  margin-top: 30px;
+}
+
+/* price */
+
+.course__recommend {
+  position: relative;
+  top: 30px;
+  left: 50%;
+  font-size: 20px;
+  color: #eb51c2;
+  background-color: white;
+  width: 80%;
+  padding: 10px;
+  border: solid 1px #eb51c2;
+  border-radius: 10px;
+  text-align: center;
+  display: grid;
+  place-items: center;
+  transform: translateX(-50%);
+}
+
+.course__content__title {
+  padding-top: 40px;
+}
+
+.course__content__number {
+  font-size: 26px;
+  color: #eb51c2;
+}
+
+.course__content__money {
+  font-size: 48px;
+}
+
+.course__content__en {
+  font-size: 40px;
+}
+
+.course__content__entry {
+  font-size: 16px;
+}
+
+.course__content__content1 {
+  margin-top: 20px;
+}
+
+.course__content__subtitle {
+  padding-top: 31px;
+  font-size: 18px;
+}
+
+.course__content__detail {
+  font-size: 16px;
+  padding-bottom: 30px;
+}
+
+/* FAQ */
+
+.FAQ__content {
+  margin-top: 30px;
+  max-width: 1110px;
+}
+
+.question {
+  display: flex;
+  position: relative;
+}
+
+.answer {
+  display: flex;
+  margin-top: 15px;
+}
+
+.FAQ__pn {
+  color: #eb51c2;
+  font-size: 26px;
+}
+
+.FAQ__sentence {
+  padding-left: 16px;
+  font-size: 15px;
+}
+
+.FAQ__sentence__ans {
+  padding-left: 20px;
+  font-size: 15px;
+}
+
+.question::after {
+  border-right: solid 2px #eb51c2;
+  border-top: solid 2px #eb51c2;
+  content: "";
+  height: 8px;
+  position: absolute;
+  right: 0;
+  top: 38%;
+  transform: rotate(135deg); /*最初の矢印は下向き*/
+  transition: transform 0.3s ease-in-out, top 0.3s ease-in-out;
+  width: 8px;
+}
+
+.question.open::after {
+  top: 45%;
+  transform: rotate(-45deg);
+}
+
+.question__border {
+  margin-top: 20px;
+  margin-bottom: 19px;
+}
+
+/* end */
+
+.end__content {
+  background-color: #eb51c2;
+  width: 100%;
+  height: 639px;
+  margin-top: 70px;
+}
+
+.end__photo {
+  width: 100%;
+  height: auto;
+}
+
+.end__sentence__wh {
+  font-size: 64px;
+  color: white;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.btn__about__wh {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.btn__wh {
+  font-size: 20px;
+  background-color: white;
+  border: white;
+  width: 370px;
+  height: 80px;
+  border-radius: 50px;
+  text-align: center;
+  color: #eb51c2;
+  text-decoration: none;
+}
+
+/* footer */
+
+.footer__back {
+  background-color: black;
+  width: 100%;
+  height: 223px;
+}
+
+.logo__wh {
+  display: grid;
+  place-items: center;
+  margin: 0 auto;
+  padding-top: 100px;
+}
